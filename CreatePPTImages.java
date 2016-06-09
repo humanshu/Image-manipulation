@@ -13,7 +13,7 @@ import org.apache.poi.xslf.usermodel.XSLFSlide;
 
 public class CreatePPTImages {
 	public static void main(String args[]) throws IOException {
-		// creating an empty presentation
+		// path of the pptx format presentation
 		String inputFileLocation = "C://testFolder//test.pptx";
 		XMLSlideShow ppt = new XMLSlideShow(new FileInputStream(new File(
 				inputFileLocation)));
